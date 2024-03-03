@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "lb.dioco.io"
+            ],
+            "domain_suffix": [
+                "fast.com",
+                "nflxext.com",
+                "nflximg.com",
+                "nflximg.net",
+                "nflxsearch.net",
+                "nflxso.net",
+                "nflxvideo.net",
+                "us-west-2.amazonaws.com",
+                "goodmovies.io"
+            ],
+            "domain_keyword": [
+                "dualstack.apiproxy-",
+                "dualstack.apiproxy-device-prod-nlb-",
+                "dualstack.ichnaea-web-",
+                "netflix"
+            ]
+        }
+    ]
+}
