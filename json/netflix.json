@@ -2,9 +2,6 @@
     "version": 1,
     "rules": [
         {
-            "domain": [
-                "lb.dioco.io"
-            ],
             "domain_suffix": [
                 "fast.com",
                 "nflxext.com",
@@ -13,8 +10,7 @@
                 "nflxsearch.net",
                 "nflxso.net",
                 "nflxvideo.net",
-                "us-west-2.amazonaws.com",
-                "goodmovies.io"
+                "us-west-2.amazonaws.com"
             ],
             "domain_keyword": [
                 "dualstack.apiproxy-",
