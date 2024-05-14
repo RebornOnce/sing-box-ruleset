@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain": [
+                "api-iam.intercom.io",
+                "api.githubcopilot.com",
+                "api.statsig.com",
+                "bard.google.com",
+                "chatgpt.livekit.cloud",
+                "copilot-proxy.githubusercontent.com",
+                "copilot.microsoft.com",
+                "gemini.google.com",
+                "imagine.meta.com",
+                "o33249.ingest.sentry.io",
+                "openaiapi-site.azureedge.net",
+                "sfo3.turn.livekit.cloud",
+                "sydney.bing.com",
+                "www.bing.com"
+            ],
+            "domain_suffix": [
+                "anthropic.com",
+                "chatgpt.com",
+                "claude.ai",
+                "grazie.ai",
+                "meta.ai",
+                "oaistatic.com",
+                "oaiusercontent.com",
+                "openai.com"
+            ],
+            "domain_keyword": [
+                "openaicom"
+            ],
+            "ip_cidr": [
+                "160.79.104.0/23",
+                "2607:6bc0::/48"
+            ]
+        }
+    ]
+}
