@@ -7,6 +7,7 @@
                 "api.githubcopilot.com",
                 "api.statsig.com",
                 "bard.google.com",
+                "browser-intake-datadoghq.com",
                 "chatgpt.livekit.cloud",
                 "copilot-proxy.githubusercontent.com",
                 "copilot.microsoft.com",
@@ -15,25 +16,47 @@
                 "o33249.ingest.sentry.io",
                 "openaiapi-site.azureedge.net",
                 "sfo3.turn.livekit.cloud",
+                "static.cloudflareinsights.com",
                 "sydney.bing.com",
                 "www.bing.com"
             ],
             "domain_suffix": [
+                "ai.com",
+                "algolia.net",
                 "anthropic.com",
+                "api.statsig.com",
+                "auth0.com",
                 "chatgpt.com",
+                "chatgpt.livekit.cloud",
                 "claude.ai",
+                "client-api.arkoselabs.com",
+                "events.statsigapi.net",
+                "featuregates.org",
                 "grazie.ai",
+                "host.livekit.cloud",
+                "identrust.com",
+                "intercom.io",
+                "intercomcdn.com",
+                "launchdarkly.com",
                 "meta.ai",
                 "oaistatic.com",
                 "oaiusercontent.com",
-                "openai.com"
+                "observeit.net",
+                "openai.com",
+                "segment.io",
+                "sentry.io",
+                "stripe.com",
+                "turn.livekit.cloud"
             ],
             "domain_keyword": [
+                "openai",
                 "openaicom"
             ],
             "ip_cidr": [
                 "160.79.104.0/23",
-                "2607:6bc0::/48"
+                "24.199.123.28/32",
+                "2607:6bc0::/48",
+                "64.23.132.171/32"
             ]
         }
     ]
