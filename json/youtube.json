@@ -3,18 +3,20 @@
     "rules": [
         {
             "domain": [
+                "i.ytimg.com",
+                "i9.ytimg.com",
                 "lh3.googleusercontent.com",
+                "oauth2.googleapis.com",
+                "oauthaccountmanager.googleapis.com",
+                "play.googleapis.com",
+                "youtubei.googleapis.com",
                 "yt3.ggpht.com"
             ],
             "domain_suffix": [
-                "ggpht.cn",
-                "ggpht.com",
-                "googleapis.com",
                 "googlevideo.com",
                 "gvt2.com",
                 "youtu.be",
-                "yt.be",
-                "ytimg.com"
+                "yt.be"
             ],
             "domain_keyword": [
                 "youtube"
