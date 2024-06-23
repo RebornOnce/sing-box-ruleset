@@ -2,38 +2,23 @@
     "version": 1,
     "rules": [
         {
-            "domain": [
-                "e13252.dscg.akamaiedge.net"
-            ],
             "domain_suffix": [
-                ".cookielaw.org",
-                ".fast.com",
-                ".flxvpn.net",
-                ".nflxext.com",
-                ".nflximg.com",
-                ".nflximg.net",
-                ".nflxsearch.net",
-                ".nflxso.net",
-                ".nflxvideo.net",
-                ".onetrust.com",
-                ".us-west-2.amazonaws.com",
-                "cookielaw.org",
                 "fast.com",
-                "flxvpn.net",
                 "nflxext.com",
                 "nflximg.com",
                 "nflximg.net",
                 "nflxsearch.net",
                 "nflxso.net",
-                "nflxvideo.net",
-                "onetrust.com",
-                "us-west-2.amazonaws.com"
+                "nflxvideo.net"
             ],
             "domain_keyword": [
-                "apiproxy-device-prod-nlb-",
-                "dualstack.apiproxy-",
-                "dualstack.ichnaea-web-",
                 "netflix"
+            ],
+            "domain_regex": [
+                "(^|\\.)apiproxy-device-prod-nlb-.+\\.amazonaws\\.com$",
+                "(^|\\.)apiproxy-website-nlb-prod-.+\\.amazonaws\\.com$",
+                "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+                "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
             ]
         }
     ]
